@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   get_next_line_utils.c                              :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: mraymun <mraymun@student.21-school.ru>     +#+  +:+       +#+        */
+/*   By: mraymun <mraymun@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2020/11/15 21:28:39 by mraymun           #+#    #+#             */
-/*   Updated: 2020/11/17 18:51:12 by mraymun          ###   ########.fr       */
+/*   Updated: 2020/11/18 07:50:18 by mraymun          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ void	*ft_memalloc(int size)
 	return (ptr);
 }
 
-size_t	ft_strlen(char *str)
+int		ft_strlen(char *str)
 {
 	int		size;
 
